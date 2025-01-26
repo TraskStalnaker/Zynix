@@ -97,7 +97,7 @@ Zynix/
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/zynix.git
+   git clone https://github.com/TraskStalnaker/zynix.git
    cd zynix
 
 2. Install Python dependencies:
