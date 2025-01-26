@@ -1,4 +1,8 @@
-# Zynix
+![image-20250126190328631](README.assets/image-20250126190328631.png)
+
+---
+
+
 
 ## AI + Web3 Intelligent Digital Persona and Asset Protection
 
