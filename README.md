@@ -14,7 +14,7 @@ Zynix/
 │   │   ├── transaction_fetcher.py      # Fetch and clean on-chain transaction data
 │   │   ├── nft_tracker.py              # Track NFT-related activities
 │   │   ├── defi_monitor.py             # Monitor DeFi investments and returns
-├── llm_engine/                          # AI models and utilities
+├── ai_engine/                          # AI models and utilities
 │   ├── models/                         # Machine learning models for risk and behavior
 │   │   ├── personality_analysis.py     # Generate digital persona based on behavior
 │   │   ├── clustering.py               # Cluster user behavior patterns
