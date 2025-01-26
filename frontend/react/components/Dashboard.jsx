@@ -1,25 +1,15 @@
-import React, { useEffect, useState } from "react";
-import axios from "../services/apiService";
+import React from "react";
 import PersonalityCard from "./PersonalityCard";
+import RiskAlerts from "./RiskAlerts";
+import AssetAllocation from "./AssetAllocation";
 
-const Dashboard = () => {
-  const [personality, setPersonality] = useState(null);
-
-  useEffect(() => {
-    axios
-      .get("/api/personality?wallet_address=YourWalletAddressHere")
-      .then((response) => setPersonality(response.data))
-      .catch((error) => console.error("Error fetching personality:", error));
-  }, []);
-
+const Dashboard = ({ walletAddress }) => {
   return (
-    <div className="dashboard">
+    <div className="container">
       <h1 className="text-3xl font-bold mb-6">User Dashboard</h1>
-      {personality ? (
-        <PersonalityCard personality={personality} />
-      ) : (
-        <p>Loading personality data...</p>
-      )}
+      <PersonalityCard walletAddress={walletAddress} />
+      <RiskAlerts walletAddress={walletAddress} />
+      <AssetAllocation walletAddress={walletAddress} />
     </div>
   );
 };
