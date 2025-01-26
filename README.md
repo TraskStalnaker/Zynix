@@ -134,6 +134,3 @@ Run the full test suite:
 pytest tests/
 ```
 
----
-
-This structure and documentation should give a clear overview of the project and make onboarding for developers seamless. Let me know if you want more details or adjustments!
