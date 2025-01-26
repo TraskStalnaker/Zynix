@@ -1,4 +1,6 @@
-# Zynix: AI + Web3 Intelligent Digital Persona and Asset Protection
+# Zynix
+
+## AI + Web3 Intelligent Digital Persona and Asset Protection
 
 Zynix is a Web3 application driven by artificial intelligence as the core, which redefines the identity and asset management of users in a decentralized world. Through deep learning and behavior modeling technology, it transforms the user's on-chain data into a visual "digital personality" and dynamically updates the user's on-chain behavior portrait, giving each user a unique intelligent identity. On this basis, Zynix uses AI models to predict asset risks in real time, identify investment opportunities, optimize asset allocation, and provide users with intelligent asset protection solutions. 
 
